@@ -1,0 +1,13 @@
+@import 'couleurs';
+@import 'typos';
+@import 'header';
+@import 'main';
+@import 'btn';
+@import 'footer';
+@import 'responsive';
+
+
+body {
+    background-color: $bg_site;
+}
+

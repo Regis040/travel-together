@@ -1,0 +1,23 @@
+
+$border-radius: 5px;
+$btn_color: black;
+$btn_bg: $bg_visuSup;
+
+.button  {
+    display: inline-block;
+    color: $btn_color;
+    background-color: $typoClaire;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: $border-radius;
+    margin-top: 2rem;
+    text-decoration: none;
+    box-shadow: 7px 5px 14px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 5px 14px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 5px 14px -4px rgba(0,0,0,0.75);
+}
+
+main a:hover {
+    background-color: rgb(59, 2, 2);
+    color: rgb(92, 77, 77);
+}

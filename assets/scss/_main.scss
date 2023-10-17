@@ -1,0 +1,141 @@
+
+                            // première partie
+
+.container1 {
+    background-color: $bg_visuSup;
+    border-radius: 8px;
+    margin-top: 5rem;
+}
+
+.p-classic_clair {
+    font-size: 8px;
+    color: $typoClaire;
+}
+.p-gros_clair {
+    font-size: 30px;
+    color: $typoClaire;
+ }
+
+ .pad {
+    padding: 5rem 0 3rem 5rem;
+ }
+
+ .tel {
+    width: 130px;
+    position: absolute;
+    bottom: -20px;
+ }
+
+ .tel_position {
+    position: relative;
+    overflow: hidden;
+ }
+
+                            //  seconde partie : services
+.h2_position1 {
+    padding-top: 60px;
+}
+
+.col-md-4-1 {
+    visibility: hidden;
+}
+
+
+
+.hom-assis {
+    background-image: url(../img/homme-assis-batiment.jpg); 
+    height: 490px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.passeport {
+    background-image: url(../img/passport.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 7px;
+    height: 241px;
+    border-radius: 5px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.montgol {
+    background-image: url(../img/montgolfiere.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 7px;
+    height: 241px;
+    border-radius:5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.text_sur-photo {
+    color: white;
+}
+
+.pos_p {
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+// Troisème partie : Features
+
+.h2_position2 {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.iconex {
+    height: 75px;
+}
+
+.bg_partie3 {
+    background-image: url(../img/wave.svg);    
+    // background-position: center;
+    background-size: cover;  
+}
+
+.partie3_container {
+    margin-top: 40px;
+}
+
+.icone_modif {
+    font-size: 50px;
+    color: #e7816b;
+}
+
+
+                            // Troisième partie : 
+
+
+.container2 {
+    background-color: $bg_visuSup;
+    border-radius: 8px;
+    // margin: 5rem;
+    height: 200px;
+    position: relative;
+    bottom: -5rem;
+  
+}

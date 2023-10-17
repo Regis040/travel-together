@@ -1,0 +1,56 @@
+ footer {
+    background-color: $bg_footer;
+    padding-top: 7rem;
+    color: $typoClaire;
+}
+
+// première partie du footer
+.p-gros{
+    font-size: 20px;
+    font-weight:300;
+    color: $typoClaire;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.p-petit {
+    font-size: 12px;
+    color: $typoClaire;
+    text-align: left;
+}
+
+footer a{
+    color:$typoClaire;
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+// .button-position {
+//     // margin-top: 50px;
+// }
+
+// seconde partie du footer
+
+.partie2_position {
+    padding-top: 15px;
+    padding-left: 20px;
+    border-top: 2px solid white;
+}
+
+.logo_position{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.les-i {
+    font-size: 20px;
+    padding-left: 1rem;
+}
+
+
+
